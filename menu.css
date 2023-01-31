@@ -1,0 +1,44 @@
+
+/*formatanto o texto dos itens do menu*/
+navbar { font-size: 14px;}
+
+/*centralizar o menu*/
+ul { padding: 0 20px;}
+
+/*para por os itens do menu lado a lado, como blocos*/
+navbar li {
+    background-color: saddlebrown;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 150px;
+}
+
+/*esconder os sub-itens enquanto o mouse n estiver em cima*/
+navbar li ul { display: none;}
+
+/*estilizar links do menu*/
+navbar li span, navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+/*efeito para quando passar o mouse em cima do elemento*/
+navbar li:hover {
+    background-color: silver;
+    cursor: pointer;
+}
+
+/*faz os sub-itens aparecerem qnd o mouse estiver em cima*/
+navbar li:hover ul {
+    display: block;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 99;
+}
+
+/*faz os sub-itens ficarem um a baixo do outro*/
+navbar li ul li { float: none;}

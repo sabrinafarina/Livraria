@@ -1,0 +1,169 @@
+/*define background e fonte tipografica da pag*/
+body {
+    background-image: url(../imagens/fundo3.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*retira margens e espaçamentos para ter controle sobre eles*/
+* { margin: 0%; padding: 0%;}
+
+/*largura da area do conteudo*/
+#page { width: 800px;}
+
+/*estilo do cabeçalho da pagina*/
+header { 
+    height: 80px;
+    background-image: url(../imagens/fundo_cab.jpg);
+}
+
+header img {
+    float: left;
+    margin-top: 5px;
+}
+
+h1 {
+    color: firebrick;
+    padding-top: 20px;
+    text-indent: 11px;
+}
+
+#right, #center-main, #left { margin-top: 5px;}
+
+/*estilos do menu de categorias*/
+h2 {
+    background-color: #511b00;
+    color: #fff;
+    text-align: center;
+}
+
+#left li {
+    list-style: url(../imagens/seta_menu.gif);
+    list-style-position: inside;
+    border-bottom: 1px #c60 solid;
+    background-color: #ff8000;
+    width: 120px;
+}
+
+#left ul {
+    position: relative;
+    width: 100%;
+    padding: 0%;
+}
+
+#left {
+    width: 120px;
+    height: 620px;
+    float: left;
+    background-image: url(../imagens/menu_esq_bg.jpg);
+}
+
+a {
+    font-weight: bolder;
+    color: #541600;
+    font-size: 12px;
+}
+ 
+span.category-item {
+    margin-left: 4px;
+    position: absolute;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+
+span.category-item:hover {
+    color: black;
+}
+
+/*estilizando área dos destaques*/
+#destaques {
+    width: 350px;
+    height: 80px;
+    background-image: url(../imagens/destaques.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-bottom: #f69e07 1px solid;
+
+}
+
+h3 {
+    color: #541600;
+    width: 200px;
+    font-size: 30px;
+    margin: 0px 0px 0px 100px;
+    padding-top: 20px;
+}
+
+#center-main {
+    margin-left: 11px;
+    float: left;
+}
+
+table {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 490px;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px #c0c0c0 dashed;
+    font-size: 14px;
+    color: #541600;
+}
+
+.price {
+    color: #f69e07;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.destaque {
+    height: 170px;
+    width: 120px;
+}
+
+img.comprar {
+    border: none;
+}
+
+.price {
+    color: #f69e07;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.clear {
+    clear: both;
+}
+
+/*estlizando o top 5*/
+#top5 {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#right {
+    border-left: 1px dotted #511b00;
+    border-right: 1px dotted #511b00;
+    float: right;
+    width: 118px;
+    height: 620px;
+}
+
+/*rodapé*/
+footer {
+    background-color: #541600;
+    font-size: 12px;
+    height: 16px;
+    width: 800px;
+    color: #fff;
+    text-align: center;
+}
